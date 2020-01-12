@@ -1,11 +1,23 @@
 package quoters;
 
+import javax.annotation.PostConstruct;
+
 public class TerminateQuoter implements Quoter {
 
     private String message;
 
     @InjectRandomInt(min = 2, max = 7)
     private int repeate;
+
+    @PostConstruct
+    public void init(){
+        System.out.println("phase 2");
+        System.out.println(repeate);
+    }
+
+    public TerminateQuoter(){
+        System.out.println("phase 1");
+    }
 
     public void setMessage(String message) {
         this.message = message;
