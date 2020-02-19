@@ -1,9 +1,8 @@
-package quoters;
+package prokopenya.spring.example.first;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.util.ReflectionUtils;
-import quoters.InjectRandomInt;
 
 import java.lang.reflect.Field;
 import java.util.Arrays;

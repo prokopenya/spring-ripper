@@ -1,4 +1,6 @@
-package quoters;
+package prokopenya.spring.example.first;
+
+import prokopenya.spring.example.Quoter;
 
 import javax.annotation.PostConstruct;
 

@@ -1,4 +1,4 @@
-package quoters;
+package prokopenya.spring.example.first;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

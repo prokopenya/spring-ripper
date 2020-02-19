@@ -1,4 +1,4 @@
-package quoters;
+package prokopenya.spring.example.first;
 
 public class ProfilingController implements ProfilingControllerMBean {
     private boolean enabled;

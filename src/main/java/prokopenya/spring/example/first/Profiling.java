@@ -1,4 +1,4 @@
-package quoters;
+package prokopenya.spring.example.first;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
